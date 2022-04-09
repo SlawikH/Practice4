@@ -1,0 +1,67 @@
+body {
+    margin-bottom: 500px;
+}
+
+.text {
+    width: 700px;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 0 15px;
+    text-align: justify;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.text p {
+    text-indent: 50px;
+    font: 13px/27px Arial;
+}
+
+.text h2 a:link , .text h2 a:visited {
+    text-decoration: none;
+    color: rgb(234, 91, 158);
+}
+
+.text h2 a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.link {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.link a:link , .link a:visited {
+    text-decoration: none;
+    color: rgb(234, 91, 158);
+    font-weight: bold; 
+}
+
+.text .link a:hover {
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color:rgb(234, 91, 158) ;
+    text-align: center;
+}
+
+.link2 , .link2:visited{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.link2:hover {
+    text-decoration: underline;
+    color: red;
+}

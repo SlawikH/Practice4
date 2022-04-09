@@ -1,0 +1,34 @@
+.div {
+    width: 700px;
+    margin: 10px auto;
+    border:2px dashed green;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+h1 , h2 {
+    text-align: center;
+    color: green;
+}
+
+.div p {
+    color: green;
+    text-align: right;
+    padding: 0px 10px;
+    font: 15px/20px Arial;
+}
+
+
+.div a:link , .div a:visited {
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.div a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+

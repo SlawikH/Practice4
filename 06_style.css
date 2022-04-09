@@ -1,0 +1,99 @@
+body , h1, p{
+    margin: 0;
+    margin-bottom: 500px;
+}
+
+h1 , h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(126, 93, 32);
+}
+
+.div {
+    border-left: 1px ridge rgb(224, 160, 41);
+	border-right: 1px ridge rgb(224, 160, 41);
+	border-bottom: 1px ridge rgb(224, 160, 41);
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+}
+
+p {
+    font: 17px/33px 'Times New Roman';
+    text-indent: 0;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    text-indent: 50px;
+    color: rgb(224, 160, 41);
+}
+
+a:link , a:visited {
+    text-decoration: underline;
+    color: rgb(126, 93, 32);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    margin: 0;
+    height: 50px;
+    background: rgb(224, 160, 41);
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a:link , .menu a:visited {
+    color: white;
+    text-decoration: none;
+    font: bold 13px Arial;
+    display: block;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.menu a:hover {
+    color: rgb(224, 160, 41);
+    background: white;
+}
+
+.menu2 {
+    margin-top: 20px;
+    font: 13px Arial;
+    text-align: center;
+}
+
+.menu2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu2 li {
+    display: inline;
+    padding: 0 10px;
+}
+
+.menu2 a:link , .menu2 a:visited {
+    text-decoration: none;
+}
+
+.menu2 a:hover {
+    text-decoration: underline;
+}
